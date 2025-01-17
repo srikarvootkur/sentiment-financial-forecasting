@@ -4,6 +4,7 @@ transformers==4.48.0
 torch
 yfinance
 pytorch-forecasting
+pytorch-lightning
 matplotlib==3.10.0
 streamlit
 pandas

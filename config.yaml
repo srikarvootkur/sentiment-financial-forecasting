@@ -1,0 +1,8 @@
+data:
+  raw_stock_data_path: "data/raw/stock_data.csv"
+  raw_tweets_data_path: "data/raw/tweets_data.csv"
+  processed_data_path: "data/processed/"
+  
+model:
+  finbert_model_name: "yiyanghkust/finbert-tone"
+  time_series_model: "TFT"

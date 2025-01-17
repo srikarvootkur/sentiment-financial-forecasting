@@ -1,7 +1,7 @@
 import torch
 import pandas as pd
 from pytorch_forecasting import TemporalFusionTransformer, TimeSeriesDataSet
-from pytorch_forecasting import Trainer
+from pytorch_lightning import Trainer
 
 class TimeSeriesForecaster:
     def __init__(self, input_chunk_length=60, output_chunk_length=30, batch_size=64, hidden_size=64, max_epochs=10):

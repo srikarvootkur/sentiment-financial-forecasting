@@ -1,6 +1,6 @@
 import yfinance as yf
 import pandas as pd
-from datasets import Dataset
+from datasets import load_dataset
 
 class DataProcessor:
     def __init__(self):
@@ -18,7 +18,7 @@ class DataProcessor:
         """
         Load a dataset from the Hugging Face Hub using the 'datasets' library.
         """
-        dataset = Dataset.load_dataset(dataset_name)
+        dataset = load_dataset(dataset_name)
         return dataset['train']  # Assuming 'train' split contains the data
     
     def process_stock_data(self, stock_df):

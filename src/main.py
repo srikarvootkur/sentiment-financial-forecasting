@@ -17,7 +17,7 @@ def main():
     stock_data = data_processor.process_stock_data(stock_data)
     
     # Load and process Twitter data
-    twitter_data = data_processor.load_twitter_data("financial_sentiment_dataset")
+    twitter_data = data_processor.load_twitter_data("zeroshot/twitter-financial-news-sentiment")
     sentiment_scores = sentiment_analyzer.batch_analyze_sentiment(twitter_data['text'])
     
     # Feature engineering: combine stock data with sentiment

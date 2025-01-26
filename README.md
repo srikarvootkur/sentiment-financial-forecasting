@@ -21,11 +21,6 @@ The aim is to combine **financial indicators** (e.g., stock prices, trading volu
 
 ## Workflow
 
-### End-to-End Pipeline
-The project follows a structured workflow, depicted in the diagram below:
-
-<![Workflow Diagram](images/workflow_diagram.png)>
-
 ### Steps:
 1. **Data Collection:**
    - **Financial Data:** Retrieved from APIs like Yahoo Finance or Alpha Vantage.

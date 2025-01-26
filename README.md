@@ -57,10 +57,6 @@ The project follows a structured workflow, depicted in the diagram below:
 
 ```plaintext
 sentiment-financial-forecasting/
-├── data/
-│   ├── financial_data.csv      # Raw financial data
-│   ├── sentiment_data.csv      # Sentiment scores from textual data
-│   ├── merged_data.csv         # Combined financial and sentiment data
 ├── src/
 │   ├── data_preprocessing.py   # Handles data cleaning and merging
 │   ├── feature_engineering.py  # Generates time-based and sentiment features

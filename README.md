@@ -24,7 +24,7 @@ The aim is to combine **financial indicators** (e.g., stock prices, trading volu
 ### End-to-End Pipeline
 The project follows a structured workflow, depicted in the diagram below:
 
-# ![Workflow Diagram](images/workflow_diagram.png)
+<> ![Workflow Diagram](images/workflow_diagram.png)
 
 ### Steps:
 1. **Data Collection:**
